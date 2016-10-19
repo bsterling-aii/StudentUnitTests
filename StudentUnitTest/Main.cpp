@@ -12,6 +12,7 @@ int main(int argc, char* argv[])
 	//CppUnit::XmlOutputter* outputter = new CppUnit::XmlOutputter(&runner.result(), fs);
 	//runner.setOutputter(outputter);
 
+	// This is a new Comment
 	runner.addTest(suite);
 	bool wasSucessful = runner.run();
 
